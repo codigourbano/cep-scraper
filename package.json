@@ -1,7 +1,7 @@
 {
   "name": "cep-scraper",
-  "version": "0.1.0",
-  "description": "Scraper for BuscaCEP, from Correios.",
+  "version": "0.1.1",
+  "description": "JavaScript client to scrape data from Correios' BuscaCEP.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

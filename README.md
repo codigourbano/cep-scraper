@@ -4,13 +4,15 @@ A JavaScript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) data
 
 ## Install
 
+Inside your application directory:
 ```
-$ npm install codigourbano/cep-scraper
+$ npm install cep-scraper --save
 ```
 
 ## Example
 
-Search using a string
+**Search using a string**
+
 ```javascript
 var CEP = require('cep-scraper');
 
@@ -19,7 +21,8 @@ CEP.scrape('avenida paulista', function(res) {
 });
 ```
 
-Query
+**Query**
+
 ```javascript
 var CEP = require('cep-scraper');
 
