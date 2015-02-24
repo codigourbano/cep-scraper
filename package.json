@@ -1,14 +1,26 @@
 {
   "name": "cep-scraper",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Scraper for BuscaCEP, from Correios.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "https://github.com/codigourbano/cep-scraper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codigourbano/cep-scraper"
+  },
+  "keywords": [
+    "scraper",
+    "cep",
+    "postcode",
+    "brazil"
+  ],
   "author": "Miguel Peixe <miguel@cardume.art.br>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codigourbano/cep-scraper/issues"
+  },
   "dependencies": {
     "cheerio": "~0.18.0",
     "underscore": "~1.8.2",

@@ -22,6 +22,7 @@ CEP.scrape('avenida paulista', function(res) {
 Query
 ```javascript
 var CEP = require('cep-scraper');
+
 CEP.scrape({
 	uf: 'SP',
 	localidade: 'São Paulo',
