@@ -10,10 +10,25 @@ $ npm install codigourbano/cep-scraper
 
 ## Example
 
+Search using a string
 ```javascript
 var CEP = require('cep-scraper');
 
 CEP.scrape('avenida paulista', function(data) {
+	console.log(data);
+});
+```
+
+Query
+```javascript
+var CEP = require('cep-scraper');
+CEP.scrape({
+	uf: 'SP',
+	localidade: 'São Paulo',
+	tipo: 'Avenida',
+	logradouro: 'Paulista',
+	numero: 1111
+}, function(data) {
 	console.log(data);
 });
 ```
