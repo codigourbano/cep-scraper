@@ -14,8 +14,8 @@ Search using a string
 ```javascript
 var CEP = require('cep-scraper');
 
-CEP.scrape('avenida paulista', function(data) {
-	console.log(data);
+CEP.scrape('avenida paulista', function(res) {
+	console.log(res.data);
 });
 ```
 
@@ -28,7 +28,7 @@ CEP.scrape({
 	tipo: 'Avenida',
 	logradouro: 'Paulista',
 	numero: 1111
-}, function(data) {
-	console.log(data);
+}, function(res) {
+	console.log(res.data);
 });
 ```
