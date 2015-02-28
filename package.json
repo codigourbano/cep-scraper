@@ -1,6 +1,6 @@
 {
   "name": "cep-scraper",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JavaScript client to scrape data from Correios' BuscaCEP.",
   "main": "index.js",
   "scripts": {
@@ -23,7 +23,6 @@
   },
   "dependencies": {
     "cheerio": "~0.18.0",
-    "underscore": "~1.8.2",
     "request": "~2.53.0",
     "iconv-lite": "~0.4.7"
   }

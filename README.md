@@ -21,6 +21,16 @@ CEP.scrape('avenida paulista', function(res) {
 });
 ```
 
+**Get address from postcode**
+
+```javascript
+var CEP = require('cep-scraper');
+
+CEP.scrape('01310-000', function(res) {
+	console.log(res.data);
+});
+```
+
 **Query**
 
 ```javascript
