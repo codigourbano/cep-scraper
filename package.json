@@ -1,6 +1,6 @@
 {
   "name": "cep-scraper",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "JavaScript client to scrape data from Correios' BuscaCEP.",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,9 @@
     "url": "https://github.com/codigourbano/cep-scraper/issues"
   },
   "dependencies": {
+    "async": "^0.9.0",
     "cheerio": "~0.18.0",
-    "request": "~2.53.0",
-    "iconv-lite": "~0.4.7"
+    "iconv-lite": "~0.4.7",
+    "request": "~2.53.0"
   }
 }
