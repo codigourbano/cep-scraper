@@ -2,7 +2,7 @@
 
 A JavaScript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) data from [BuscaCEP](http://www.buscacep.correios.com.br/).
 
-**Lei Postal Art. 15 § 3º**
+**[Lei Postal](http://www.planalto.gov.br/ccivil_03/leis/L6538.htm) Art. 15 § 3º**
 
 *É facultada a edição de lista de
 endereçamento postal sem finalidade
