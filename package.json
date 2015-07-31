@@ -1,30 +1,36 @@
 {
-  "name": "cep-scraper",
-  "version": "0.2.0",
-  "description": "JavaScript client to scrape data from Correios' BuscaCEP.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/codigourbano/cep-scraper"
-  },
-  "keywords": [
-    "scraper",
-    "cep",
-    "postcode",
-    "brazil"
-  ],
-  "author": "Miguel Peixe <miguel@cardume.art.br>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/codigourbano/cep-scraper/issues"
-  },
-  "dependencies": {
-    "async": "^0.9.0",
-    "cheerio": "~0.18.0",
-    "iconv-lite": "~0.4.7",
-    "request": "~2.53.0"
-  }
+    "name": "cep-scraper",
+    "version": "0.2.0",
+    "description": "JavaScript client to scrape data from Correios' BuscaCEP.",
+    "main": "index.js",
+    "scripts": {
+        "test": "script/test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/codigourbano/cep-scraper"
+    },
+    "keywords": [
+        "scraper",
+        "cep",
+        "postcode",
+        "brazil"
+    ],
+    "author": "Miguel Peixe <miguel@cardume.art.br>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/codigourbano/cep-scraper/issues"
+    },
+    "dependencies": {
+        "async": "^0.9.0",
+        "cheerio": "~0.18.0",
+        "iconv-lite": "~0.4.7",
+        "request": "~2.53.0"
+    },
+    "devDependencies": {
+        "coveralls": "^2.11.3",
+        "istanbul": "^0.3.17",
+        "mocha": "^2.2.5",
+        "should": "^7.0.2"
+    }
 }
