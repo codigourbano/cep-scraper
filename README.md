@@ -1,5 +1,10 @@
 # CEP Scraper
 
+[![Build Status](https://travis-ci.org/transparenciasjc/cep-scraper.svg)](https://travis-ci.org/transparenciasjc/cep-scraper)
+[![Coverage Status](https://coveralls.io/repos/transparenciasjc/cep-scraper/badge.svg)](https://coveralls.io/r/transparenciasjc/cep-scraper)
+[![bitHound Score](https://www.bithound.io/github/transparenciasjc/cep-scraper/badges/score.svg?)](https://www.bithound.io/github/transparenciasjc/cep-scraper/master)
+[![Dependency Status](https://david-dm.org/transparenciasjc/cep-scraper.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/transparenciasjc/cep-scraper)
+
 A JavaScript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) data from [BuscaCEP](http://www.buscacep.correios.com.br/).
 
 > **[Lei Postal](http://www.planalto.gov.br/ccivil_03/leis/L6538.htm) Art. 15 § 3º**
