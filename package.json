@@ -4,7 +4,7 @@
     "description": "JavaScript client to scrape data from Correios' BuscaCEP.",
     "main": "index.js",
     "scripts": {
-        "test": "script/test"
+        "test": "NODE_ENV=test ./node_modules/.bin/mocha test/"        
     },
     "repository": {
         "type": "git",

@@ -1,9 +1,9 @@
 # CEP Scraper
 
-[![Build Status](https://travis-ci.org/transparenciasjc/cep-scraper.svg)](https://travis-ci.org/transparenciasjc/cep-scraper)
-[![Coverage Status](https://coveralls.io/repos/transparenciasjc/cep-scraper/badge.svg)](https://coveralls.io/r/transparenciasjc/cep-scraper)
-[![bitHound Score](https://www.bithound.io/github/transparenciasjc/cep-scraper/badges/score.svg?)](https://www.bithound.io/github/transparenciasjc/cep-scraper/master)
-[![Dependency Status](https://david-dm.org/transparenciasjc/cep-scraper.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/transparenciasjc/cep-scraper)
+[![Build Status](https://travis-ci.org/codigourbano/cep-scraper.svg)](https://travis-ci.org/codigourbano/cep-scraper)
+[![Coverage Status](https://coveralls.io/repos/codigourbano/cep-scraper/badge.svg)](https://coveralls.io/r/codigourbano/cep-scraper)
+[![bitHound Score](https://www.bithound.io/github/codigourbano/cep-scraper/badges/score.svg?)](https://www.bithound.io/github/codigourbano/cep-scraper/master)
+[![Dependency Status](https://david-dm.org/codigourbano/cep-scraper.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/codigourbano/cep-scraper)
 
 A JavaScript client to [scrape](https://en.wikipedia.org/wiki/Web_scraping) data from [BuscaCEP](http://www.buscacep.correios.com.br/).
 
@@ -90,3 +90,13 @@ CEP.scrape('avenida paulista 1111', function(res) {
   ]
 }
 ```
+
+# Contributing
+
+1. Clone locally
+1. `npm install`
+1. Write code
+1. `npm test`
+1. Pull request.
+
+Mantainers can update [coveralls.io](https://coveralls.io/github/codigourbano/cep-scraper) with an API key and running `./coveralls`. 
